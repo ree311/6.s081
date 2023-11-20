@@ -18,7 +18,7 @@ recur(int p[]){
   if(read(0, &prime, 4) <= 0){
     return;
   }
-  printf("prime: %d\n", prime);
+  printf("prime %d\n", prime);
 
   pipe(p0);
 
